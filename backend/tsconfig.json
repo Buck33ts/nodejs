@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    /* Core */
+    "target": "ES2020",
+    "module": "CommonJS",
+    "rootDir": "./scr",
+    "outDir": "./dist",
+
+    /* Node compatibility */
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "types": ["node"],
+
+    /* Strictness */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+
+    /* Output */
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    /* Safety & correctness */
+    "isolatedModules": true,
+    "skipLibCheck": true
+  },
+  "include": ["scr"],
+  "exclude": ["node_modules", "dist"]
+}
